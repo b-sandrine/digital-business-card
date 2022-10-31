@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #23252C;
+  height: auto;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 317px;
+  height: auto;
+  margin: 25px auto;
+  background-color: #1A1B21;
+  border-radius: 15px;
+}
+
+.container img {
+  width: 317px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 317px;
+}
+
+.container .personal-details {
+  width: 60%;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 25px;
+}
+
+.container .personal-details .full-names {
+  font-size: 17px;
+}
+
+.container .personal-details .role {
+  font-size: 15px;
+  color: #F3BF99;
+  font-weight: 100;
+}
+
+.container .personal-details .website {
+  font-size: 13px;
+  color: #DCDCDC;
+}
+
+.container .buttons, .container .description {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .buttons button {
+  width: 45%;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+}
+
+.container .buttons .button-first {
+  background-color: #fff;
+  color: #374151;
+  margin-right: 25px;
+}
+
+.container .buttons .button-second {
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.container .buttons .button-first span,
+.container .buttons .button-second span
+{
+  margin: 5px;
+}
+
+.container .description {
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.container .description .description-one, 
+.container .description .description-two 
+{
+  margin-top: 20px;
+  line-height: 20px;
+}
+.container .description .description-one .heading, 
+.container .description .description-two .heading
+{
+  font-size: 16px;
+}
+
+.container .description .description-one .descripton-details,
+.container .description .description-two .descripton-details
+{
+  font-size: 14px;
+  color: #DCDCDC;
+  margin-top: 10px;
+}
+
+.container .footer {
+  width: 100%;
+  background-color: #161619;
+  height: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+.container .footer .social-icons {
+  width: 40%;
+  margin: 5px auto;
+  padding: 10px 0;
+  color: #918E9B;
+}
+
+.container .footer .social-icons span {
+  margin-right: 15px;
+}
+
